@@ -132,7 +132,7 @@ export function DateDetailsScreen() {
                 <PixelHeart size={6} />
               </div>
               <h1 className="font-serif text-4xl leading-tight tracking-wide text-primary md:text-5xl">
-                Yayyyyy!
+                Yay!
               </h1>
               <p className="mt-2 font-sans text-sm text-muted-foreground md:text-base">
                 {"I knew you'd say yes!"}

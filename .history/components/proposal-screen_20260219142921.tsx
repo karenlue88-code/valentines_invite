@@ -78,23 +78,10 @@ export function ProposalScreen({ onYes }: ProposalScreenProps) {
       className="relative flex min-h-dvh flex-col items-center justify-center overflow-hidden px-4"
     >
       {/* Flowers on the right */}
-      {/* Flowers on the left */}
-      <div className="pointer-events-none absolute -left-4 bottom-0 w-48 opacity-80 md:-left-2 md:w-72">
+      <div className="pointer-events-none absolute -left-4 bottom-0 w-48 opacity-80 scale-x-[-1] md:-left-2 md:w-72">
         <Image
           src="/images/flowers.png"
-          alt="Beautiful pink flowers left"
-          width={400}
-          height={500}
-          className="object-contain scale-x-[-1]"
-          priority
-        />
-      </div>
-
-      {/* Flowers on the right */}
-      <div className="pointer-events-none absolute -right-4 bottom-0 w-48 opacity-80 md:-right-2 md:w-72">
-        <Image
-          src="/images/flowers.png"
-          alt="Beautiful pink flowers right"
+          alt="Beautiful pink flowers"
           width={400}
           height={500}
           className="object-contain"

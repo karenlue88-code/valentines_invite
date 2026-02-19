@@ -91,7 +91,7 @@ export function ProposalScreen({ onYes }: ProposalScreenProps) {
       </div>
 
       {/* Flowers on the right */}
-      <div className="pointer-events-none absolute -right-4 bottom-0 w-48 opacity-80 md:-right-2 md:w-72">
+      <div className="pointer-events-none absolute -right-4 bottom-0 w-48 opacity-80 md:-left-2 md:w-72">
         <Image
           src="/images/flowers.png"
           alt="Beautiful pink flowers right"

@@ -79,28 +79,28 @@ export function ProposalScreen({ onYes }: ProposalScreenProps) {
     >
       {/* Flowers on the right */}
       {/* Flowers on the left */}
-      <div className="pointer-events-none absolute -left-4 bottom-0 w-48 opacity-80 md:-left-2 md:w-72">
-        <Image
-          src="/images/flowers.png"
-          alt="Beautiful pink flowers left"
-          width={400}
-          height={500}
-          className="object-contain scale-x-[-1]"
-          priority
-        />
-      </div>
+<div className="pointer-events-none absolute -left-4 bottom-0 w-48 opacity-80 md:-left-2 md:w-72">
+  <Image
+    src="/images/flowers.png"
+    alt="Beautiful pink flowers left"
+    width={400}
+    height={500}
+    className="object-contain scale-x-[-1]"
+    priority
+  />
+</div>
 
-      {/* Flowers on the right */}
-      <div className="pointer-events-none absolute -right-4 bottom-0 w-48 opacity-80 md:-right-2 md:w-72">
-        <Image
-          src="/images/flowers.png"
-          alt="Beautiful pink flowers right"
-          width={400}
-          height={500}
-          className="object-contain"
-          priority
-        />
-      </div>
+{/* Flowers on the right */}
+<div className="pointer-events-none absolute -right-4 bottom-0 w-48 opacity-80 md:-right-2 md:w-72">
+  <Image
+    src="/images/flowers.png"
+    alt="Beautiful pink flowers right"
+    width={400}
+    height={500}
+    className="object-contain"
+    priority
+  />
+</div>
 
       {/* Animated pixel heart dropping in */}
       <div
